@@ -1,0 +1,55 @@
+.main-body {
+    background-image: url('../images/2ND.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.add-car-wrapper .container {
+    background-color: #fff;
+    padding: 30px 0;
+    box-shadow: 1px 1px 5px 1px #ddd;
+}
+
+.heading-wrapper {
+    align-items: center !important;
+}
+
+.main-body header {
+    background-color: #fff;
+    padding: 0;
+}
+
+.container {
+    margin: 100px;
+}
+
+.list-info,
+.car-info {
+    text-align: left;
+    padding: 30px;
+}
+
+.list-info {
+    border-left: 1px dashed #ddd;
+}
+
+.form-element {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form-element .form-item input,
+.form-element .form-item select {
+    width: 100%;
+}
+
+.text-area {
+    width: 100% !important;
+    height: 150px;
+}
+
+.submit-btn {
+    text-align: center;
+    margin-bottom: 10px;
+}

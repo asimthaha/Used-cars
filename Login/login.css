@@ -1,0 +1,75 @@
+.main-body {
+    background-image: url('../images/LAMB.jpg');
+}
+
+header {
+    margin: 0 !important;
+    padding: 20px 15px !important;
+    box-shadow: 1px 1px 6px 1px #bbb;
+    background-color: #fff;
+}
+
+.site-name {
+    font-size: 24px;
+    margin: 0;
+    flex: 1;
+}
+
+.search,
+.login {
+    text-align: left;
+    padding: 30px;
+}
+
+.login-container {
+    margin-top: 100px;
+}
+
+.login-wrapper {
+    padding: 30px 0;
+    box-shadow: 1px 1px 5px 1px #ddd;
+    background-color: #fff;
+}
+
+.login-wrapper.register {
+    /* max-width: 500px; */
+    padding: 30px;
+}
+
+.text-area {
+    width: 100%;
+}
+
+.register .form-label {
+    width: auto;
+    text-align: left;
+}
+
+.search {
+    border-left: 1px dashed #ddd;
+}
+
+.main-btns {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.form-element {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form-element .form-item {
+    width: 100%;
+}
+
+.form-element .form-item input,
+.form-element .form-item select {
+    width: 100%;
+    padding: 5px 8px;
+}
+
+.main-btns .register-wrapper {
+    margin-top: 10px;
+}
